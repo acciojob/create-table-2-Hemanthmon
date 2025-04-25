@@ -21,7 +21,9 @@ const columns = prompt("Input number of columns");
      for(let j = 0; j < cn; j++){
          const cell = row.insertCell()
 
-		 cell.innerText = `Row-${i} column-${j}`
+		 
+		 cell.innerText = `Row-${i} Column-${j}`;
+
 	 }
 	}
 
